@@ -2,6 +2,8 @@
 
 Ce projet contient la partie backend de l'application de gestion de tâches. Il est développé en utilisant le framework Spring.
 
+La partie Angular : https://github.com/IliesEl123/todoapp_angular_ui
+
 ## Installation
 
 1. Cloner le dépôt Git sur votre machine locale.
@@ -18,6 +20,12 @@ Ce projet expose une API REST pour gérer les tâches. Voici la liste des endpoi
 - POST /tasks : crée une nouvelle tâche.
 - PUT /tasks/{id} : met à jour une tâche existante.
 - DELETE /tasks/{id} : supprime une tâche spécifique.
+
+## Fonctionnalités
+- Ajouter une tâche
+- Supprimer une tâche
+- Supprimer toutes les tâches
+- Afficher la liste des tâches
 
 ## Technologies utilisées
 - Spring Boot
